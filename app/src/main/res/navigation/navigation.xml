@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abc"
+    app:startDestination="@id/bmiFragment2">
+
+    <fragment
+        android:id="@+id/bmiFragment2"
+        android:name="com.example.final_project1.BmiFragment"
+        android:label="fragment_bmi"
+        tools:layout="@layout/fragment_bmi" />
+    <fragment
+        android:id="@+id/tempFragment2"
+        android:name="com.example.final_project1.TempFragment"
+        android:label="fragment_temp"
+        tools:layout="@layout/fragment_temp" />
+</navigation>
